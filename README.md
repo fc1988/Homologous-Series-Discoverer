@@ -1,0 +1,1 @@
+Homologous Series Discoverer (HSD) is a tool designed to find the homologues series differ by certain molecular formula (e.g. CF2, CH2, CF2O, etc.) in a list of mass features (mass vs. RT) , it ouput a list containing the m/z, KMD, and groups of the potential HS.

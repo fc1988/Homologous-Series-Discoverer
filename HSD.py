@@ -173,7 +173,7 @@ while True:
       RT_min = np.amin(HS_temp['RT'])
       RT_max = np.amax(HS_temp['RT'])
       RT_norm = ((HS_temp['RT'] - RT_min) / (RT_max - RT_min))
-      RT_norm_fin = RT_norm_fin.append(RT_norm)
+      RT_norm_fin = pd.concat([RT_norm_fin,RT_norm])
     Mod_HS_Dataframe_pos = pd.concat([Mod_HS_Dataframe_pos,RT_norm_fin.rename('RT_norm3')],axis=1)
 
     # Write HS output file

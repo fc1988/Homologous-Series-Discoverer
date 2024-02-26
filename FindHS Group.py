@@ -1,8 +1,8 @@
 import csv
 
 # 读取CSV文件
-input_filename = '3.csv'
-output_filename = 'output_data.csv'
+input_filename = 'target.csv'
+output_filename = 'output.csv'
 
 # 定义阈值
 mz_threshold = 1

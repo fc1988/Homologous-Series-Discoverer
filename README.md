@@ -2,4 +2,4 @@
 
 2) Find HS Group (FHSG) is a tool aimed to find the valid HS (consistent m/z and RT) in a list (*.csv) containing the mz, rt, HS number, and KMD. It output a list including all the combination (δmz>1, δrt>0.05).
  
-p.s. Part of the code is referred to the FindPFAS project (https://github.com/JonZwe/FindPFAS). Thanks to JonZwe!
+3) p.s. Part of the code is referred to the FindPFAS project (https://github.com/JonZwe/FindPFAS). Thanks to JonZwe!
